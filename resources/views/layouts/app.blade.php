@@ -8,8 +8,6 @@
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
         
-        <link rel="stylesheet" href="https://datatables.yajrabox.com/highlight/styles/zenburn.css">
-        <script src="https://datatables.yajrabox.com/highlight/highlight.pack.js"></script>
         
         @stack('css')
         <link href="{{ asset('/css/style.css') }}" rel="stylesheet">
@@ -35,7 +33,10 @@
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <script src="https://datatables.yajrabox.com/js/jquery.dataTables.min.js"></script>
+        
+        <!--<script src="https://datatables.yajrabox.com/js/jquery.dataTables.min.js"></script>-->
+        
+        
         <script src="{{ asset('js/script.js') }}" type="text/javascript"></script>     
         @stack('scripts')
         

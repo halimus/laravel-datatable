@@ -27,8 +27,8 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Examples <b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="{{ url('basic') }}">Example 1- Basic</a></li>
-                        <li><a href="{{ url('basicColumn') }}">Example 2 - Basic with Column Definition</a></li>
+                        <li><a href="{{ url('example1') }}">Example 1- Basic</a></li>
+                        <li><a href="{{ url('example2') }}">Example 2 - Basic with Column Definition</a></li>
                         <li class="divider"></li>
                         <li><a href="{{ url('example3') }}">Example 3</a></li>
                     </ul>
