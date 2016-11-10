@@ -2,6 +2,10 @@
 
 @section('content')
 
+exapmle2
+
 
 
 @endsection
+
+

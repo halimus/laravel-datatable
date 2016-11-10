@@ -13,9 +13,17 @@
         
             @include('layouts.navbar')
 
-            @yield('content')
-        
-        
+            <div class="container" id="content">
+                @yield('content')
+                
+                <?php 
+                  for($i=0;$i<100;$i++){
+                    //echo '<p>aaaaaaaaaaaaaaaaaaaaaaaa'.$i.'</p>';
+                  }
+                ?>
+                
+            </div>
+            
         </div>
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>

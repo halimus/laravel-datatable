@@ -21,3 +21,9 @@ h1 {
     font-family: Lato, sans-serif;
     font-weight: 400;
 }
+
+#content{
+    margin-top: 51px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
