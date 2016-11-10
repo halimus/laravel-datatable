@@ -17,6 +17,6 @@ Using Datatables with Laravel 5.3
 
     >php artisan migrate
     
-    Excute the  <tspan fill="green">script_data.sql</tspan> to populate the users table
+    Excute the <p style='color:red'>script_data.sql</p> to populate the users table
 
 ###Start Accessing the Demo
