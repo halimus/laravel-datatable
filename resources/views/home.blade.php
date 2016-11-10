@@ -27,4 +27,7 @@
     <li><a href="{{ url('example9') }}">Example 9:  Html Builder via Dependency Injection</a></li>
 </ol>
 
+<br><br><br>
+<h4>You can find more exapmle here : <a href="https://datatables.yajrabox.com/" target="_blank">https://datatables.yajrabox.com/</a></h4>
+
 @endsection
