@@ -27,3 +27,24 @@ h1 {
     padding-top: 25px;
     padding-bottom: 50px;
 }
+
+
+/*=====================================
+Datatable
+======================================*/
+
+.dataTables_processing .loader{
+    position: absolute;
+    left:45%;
+    top: 45%;
+    z-index: 10;
+    color: #2579a9;
+    font-size: 3em;
+    background: transparent;
+}
+
+.dataTables_empty{
+    color:red;
+    text-align: center;
+    font-weight: bold;
+}
