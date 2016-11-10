@@ -7,7 +7,7 @@
 
 @section('content')
 
-    <table class="table table-bordered" id="users-table">
+    <table class="table table-bordered-" id="users-table">
         <thead>
             <tr>
                 <th>Id</th>
@@ -32,7 +32,7 @@
             },
             processing: true,
             serverSide: true,
-            ajax: '{{ url("example1/getdata") }}'
+            ajax: '{{ url("basic/getdata") }}'
         });
     });
 </script>
