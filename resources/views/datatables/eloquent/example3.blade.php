@@ -32,18 +32,18 @@
 
 <script>
     $(function () {
-        $('#users-table').DataTable({
-            processing: true,
-            serverSide: true,
-            ajax: '{{ url("example2/getdata") }}',
-            columns: [
-                {data: 0, name: 'id'},
-                {data: 1, name: 'name'},
-                {data: 2, name: 'email'},
-                {data: 3, name: 'created_at'},
-                {data: 4, name: 'updated_at'}
-            ]
-        });
+    $('#users-table').DataTable({
+        processing: true,
+        serverSide: true,
+        ajax: '{{ url("example3/getdata") }}',
+        columns: [
+            {data: 'id'},
+            {data: 'name'},
+            {data: 'email'},
+            {data: 'created_at'},
+            {data: 'updated_at'}
+        ]
+    });
     });
 </script>
 @endpush
